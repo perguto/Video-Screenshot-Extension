@@ -48,7 +48,7 @@ function generateThumbnail(video, canvas) {
 }
 console.log("Video Screenshot READY");
 document.addEventListener("keydown", (e) => {
-  if (e.code == "KeyS" && e.ctrlKey && e.altKey) {
+  if (e.code == "Semicolon" && e.ctrlKey ) {
     console.log(e);
     generateThumbnail(video, canvas);
   }

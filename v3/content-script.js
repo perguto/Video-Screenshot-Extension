@@ -8,13 +8,13 @@
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
-console.log("Video Screenshot LOADING");
 
-let video = document.querySelector("video");
-let canvas = document.createElement("canvas");
 //let thumbnailContainer = document.createElement("p");
 //video.appendChild(thumbnailContainer);
-function generateThumbnail(video, canvas) {
+function generateScreenshot() {
+console.log("GENERATING SCREENSHOT");
+	let video = document.querySelector("video");
+	let canvas = document.createElement("canvas");
   //generate thumbnail URL data
   canvas.height = video.videoHeight;
   canvas.width = video.videoWidth;
@@ -50,6 +50,6 @@ console.log("Video Screenshot READY");
 document.addEventListener("keydown", (e) => {
   if (e.code == "KeyS" && e.ctrlKey && e.altKey) {
     console.log(e);
-    generateThumbnail(video, canvas);
+    generateScreenshot();
   }
 });
