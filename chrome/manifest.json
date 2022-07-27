@@ -1,11 +1,12 @@
 {
 	"name":"Video Screenshot Downloader",
-	"description":"Save a screenshot of the video playing in original quality without any annoying UI etc.",
+	"description":"Save a screenshot of the video playing in original quality without any annoying UI etc., simply by pressing Ctrl + Alt + S! You can also set up a second, custom shortcut under chrome://extensions/shortcuts (default: Alt+S).",
 	"version":"1.0",
 	"permissions": [
 		"activeTab",
 		"scripting"
 	],
+	    "action": {},
 	"manifest_version":3,
 	"icons": {
 		"16": "icon16.png",
