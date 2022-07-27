@@ -2,7 +2,7 @@
 <img src="chrome/icon.png" width="100">
 
 This extension for Chrome and Firefox allows you to take a screenshot of any video on any website, in the best quality and without unwanted UI elements!
-Just press `ctrl` + `alt` + `S`! On Chrome-like browsers, you can also set up a second, custom shortcut under `chrome://extensions/shortcuts` (default: `alt`+`S`).
+Just press `Ctrl` + `Alt` + `S`! On Chrome-like browsers, you can also click on the extension icon and set up a second, custom shortcut under `chrome://extensions/shortcuts` (default: `Alt`+`S`).
 
 
 ## How to Install
