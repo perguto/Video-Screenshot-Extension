@@ -14,9 +14,15 @@
 		"128": "icon128.png"
 	},
 	"commands": {
-		"_execute_action": {
+		"takeScreenshot": {
+			"description": "Take screenshot of video",
 			"suggested_key": {
 				"default": "Alt+S"
+			}
+		},
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Alt+E"
 			}
 		}
 	},

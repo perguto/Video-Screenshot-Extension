@@ -55,3 +55,11 @@ document.addEventListener("keydown", (e) => {
     generateScreenshot();
   }
 });
+
+
+
+
+chrome.runtime.onMessage.addListener((msg,sender,sendResponse) => {
+	console.log('got message');
+	generateScreenshot();
+})
