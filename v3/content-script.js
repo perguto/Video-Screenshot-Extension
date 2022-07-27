@@ -33,6 +33,8 @@ console.log("GENERATING SCREENSHOT");
     a.download = document.title + " at " + video.currentTime + " seconds.png";
     document.body.appendChild(a);
     a.click();
+	  document.body.removeChild(a);
+	  URL.revokeObjectURL(url);
   });
   //create img
   //let img = document.createElement("img");
