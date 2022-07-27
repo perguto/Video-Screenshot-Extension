@@ -1,5 +1,6 @@
 # Video Download Extension
 <img src="chrome/icon.png" width="100">
+
 This extension for Chrome and Firefox allows you to take a screenshot of any video on any website, in the best quality and without unwanted UI elements!
 Just press `ctrl + alt + S`!
 
